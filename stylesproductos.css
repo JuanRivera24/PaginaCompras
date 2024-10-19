@@ -1,0 +1,45 @@
+#lista-productos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(3, lfr);
+    gap: 20px
+}
+
+.detalles {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-productos .producto img {
+    width: 100%;
+    height: auto;
+}
+
+#detalle-producto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#detalle-producto img {
+    width: 50%
+}
+
+#detalle-producto button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#detalle-producto button:hover {
+    background-color: #555;
+}
+
+body{
+    background-color: rgb(215, 215, 248);
+}
