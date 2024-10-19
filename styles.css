@@ -1,0 +1,15 @@
+#lista-productos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(3, lfr);
+    gap: 20px
+}
+
+.grid-productos .producto img {
+    width: 100%;
+    height: auto;
+}
