@@ -13,3 +13,24 @@
     width: 100%;
     height: auto;
 }
+
+#detalle-producto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#detalle-producto img {
+    width: 50%
+}
+
+#detalle-producto button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#detalle-producto button:hover {
+    background-color: #555;
+}
