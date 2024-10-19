@@ -41,5 +41,32 @@
 }
 
 body{
+    font-family:Arial, sans-serif;
     background-color: rgb(215, 215, 248);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+#logo{
+    width: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
 }
